@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(135deg, #2f2f2f, #1c1c1c);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.banner {
+  background: radial-gradient(circle, #444444 0%, #222222 50%, #000000 100%);
+  padding: 60px 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+  color: #f5f5f5; 
+  border: 1.5px solid #d1d1d1; 
+  padding: 20px;
+  border-radius: 12px ;
+}
+
+.footer-box {
+  background: radial-gradient(circle, #444444 0%, #222222 50%, #000000 100%);
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+ 
+  color: #f5f5f5; 
+  border: 1.5px solid #d1d1d1; 
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.car-card {
+
+  height: 240px;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 15px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  border: 1.5px solid #d1d1d1; 
+  padding: 20px;
+  border-radius: 12px ;
+
+}
+
+.car-card:hover {
+
+  
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+
+}
+
+
+.bg-mustang {
+
+  background-image: url('https://img.freepik.com/fotos-premium/ford-mustang-personalizado-disparo-angulo-amplio-fondo-negro-audaz-detalle-hiperrealista_969393-3787.jpg');
+
+}
+
+.bg-ferrari {
+  
+  background-image: url('https://img.freepik.com/fotos-premium/supercoche-deportivo-negro-fondo-oscuro-vista-delantera-generar-ai_606390-1042.jpg?semt=ais_hybrid&w=740');
+}
+
+.bg-porsche {
+  
+  background-image: url('https://static.motor.es/fotos-noticias/2015/05/porsche-boxster-porsche-911-black-edition-201521409_1.jpg'); 
+}
+
+.bg-lamborghini {
+  
+  background-image: url('https://wp-s.ru/wallpapers/1/6/small/321252743764845.jpg');
+}
+
+.bg-bugatti {
+  
+  background-image: url('https://wallpapers.com/images/hd/cool-car-black-bugatti-fxzj8jfd5rnd3yro.jpg');
+}
+
+h4{
+  text-align: center;
+}
